@@ -1,29 +1,15 @@
-# Gradle
-.gradle/
-build/
-!gradle/wrapper/gradle-wrapper.jar
-
-# Android Studio
-.idea/
 *.iml
-*.ipr
-*.iws
-
-# Local configuration file (kişisel ayarlar)
-local.properties
-
-# Log Files
-*.log
-
-# Generated files
-captures/
-.externalNativeBuild/
-.cxx/
-
-# Keystore files (şifreli imzalama dosyaları, asla paylaşma!)
-*.jks
-*.keystore
-
-# Others
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
 .DS_Store
-
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
